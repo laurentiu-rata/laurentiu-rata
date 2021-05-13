@@ -1,0 +1,150 @@
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top:0;
+  z-index: 1000;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+body {
+  margin-top: 50px;
+}
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a {
+  color: grey;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  
+}
+
+
+
+#location {
+  margin-left: -10px;
+  border-radius: 0px;
+  
+  
+}
+#service {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  
+}
+
+#btn {
+  margin-left: -10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+
+#img {
+  margin-bottom: -16px;
+  
+}
+
+.marketplace {
+ 
+  
+  margin: 25px;
+  width: 130px;
+  height: 140px;
+  text-align: center;
+  
+  
+}
+
+.fa-building, .fa-eye, .fa-dolly-flatbed, .fa-glass-cheers, .fa-ellipsis-h, .fa-laptop-code  {
+  font-size: 180%;
+  padding-top: 15%;
+  
+}
+.insideBox {
+  border: solid black 1px;
+  border-color: rgb(179, 179, 179);
+  border-radius: 5px;
+  height: 130px;
+  box-shadow: 1px 1px 7px #888888;
+
+}
+
+
+.insideBox:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container-fluid {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+
+#post_a_request {
+  width: 130px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+#services {
+  width: 235px;
+}
+#title {
+  text-align: center;
+  background-color: white;
+  height: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media (max-width: 1094px) {
+  #post_a_request {
+    font-size: 10px;
+    margin-left: -20px;
+    width: 90px;
+  }
+  #service {
+    width: 215px;
+  }
+  #location {
+    width: 57px;
+  }
+
+}
+
+@media (max-width: 526px) {
+  #btn {
+    border-radius: 5px;
+    width: 100% !important;
+    margin-left: 2px;
+  }
+  #service {
+    width: 197px;
+    font-size: 10px;
+  }
+  #location {
+    font-size: 10px;
+    
+  }
+  #img {
+    width: 250px;
+  }
+  #localProfessionals {
+    font-size: 25px;
+  }
+  
+  
+}

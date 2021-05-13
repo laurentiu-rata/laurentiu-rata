@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <title>Sitemile</title>
+  
+</head>
+<body>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg nav">
+    <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto my-2 my-lg-0">
+        <li >
+          <a class="mr-5" href="#">Post request</a>
+        </li>
+        <li>
+          <a class="mr-5" href="#">Join as a Pro</a>
+        </li>
+        <li>
+          <a class="mr-5" href="#">Login</a>
+        </li>     
+      </ul>  
+    </div>
+  </nav>
+  <!-- First section -->
+  <div id="header" class="container-fluid">
+    <div class="row">
+      <div class="col-lg-7 mt-5">
+        <h1 id="localProfessionals" class="mt-5">Find local professionals for just about anything.</h1>
+        <form autocomplete="off" >
+          <div class="form-row justify-content-center">
+            <div class="col">
+              <input id="service" type="text" class="form-control mb-2 empty"  placeholder="&#xF002; What service do you need">
+            </div>
+            <div class="col">
+              
+              <div class="input-group mb-2">
+                
+                <input id="location" type="text" class="form-control empty"  placeholder="&#xF3C5; Durban">
+              </div>
+            </div>
+            
+            <div class="col">
+              <button id="btn" type="submit" class="btn btn-danger mb-2">Search</button>
+            </div>
+          </div>
+        </form>
+        <p><i class="far fa-play-circle"></i><a href=""> See how it works</a>
+        
+      </div>
+      <div class="col-lg-5 responsive-img d-flex justify-content-center">
+        <img id="img" class="float-left " src="img/2.jpg">
+      </div>
+    </div>
+  </div>
+  <hr>
+    <!-- Second section -->
+  <div class="container-fluid mt-5 mb-5">
+      <h2 id="explore">Explore the Marketplace</h2>
+      <div class="row justify-content-center">
+        <div class="col-xs col-md-4 col-lg-3 col-xl marketplace">
+          <a href="">
+            <div class="insideBox">
+              <i class="fas fa-building"></i>
+              <span class="d-flex justify-content-center">Home,</span>
+              <span class="d-flex justify-content-center">building &</span>
+              <span class="d-flex justify-content-center">trade</span>
+            </div> 
+          </a>
+        </div>
+      <div class="col-xs col-md-4 col-lg-3 col-xl marketplace">
+        <a href="">
+          <div class="insideBox">
+            <i class="far fa-eye mt-3"></i>
+            <p class="d-flex justify-content-center">Security</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs col-md-4 col-lg-3 col-xl marketplace">
+        <a href="">
+          <div class="insideBox">
+            <i class="fas fa-dolly-flatbed mt-3"></i>
+            <p class="d-flex justify-content-center">Transport</p>
+          </div>
+       </a>
+      </div>
+      <div class="col-xs col-md-4 col-lg-3 col-xl marketplace">
+        <a href="">
+          <div class="insideBox">
+            <i class="fas fa-laptop-code mt-2"></i>
+            <span class="d-flex justify-content-center">Computers &</span>
+            <span class="d-flex justify-content-center">Technology</span>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs col-md-4 col-lg-3 col-xl marketplace">
+        <a href="">
+          <div class="insideBox">
+            <i class="fas fa-glass-cheers mt-3"></i>
+            <p class="d-flex justify-content-center">Events</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-xs col-md-4 col-lg-3 col-xl marketplace">
+        <a href="">
+          <div class="insideBox">
+            <i class="fas fa-ellipsis-h mt-3"></i>
+            <p class="d-flex justify-content-center">More</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Third Section -->
+  <div class="container-fluid bg-light bg-gradient pt-5 pb-5">
+    <div class="row">
+      <div class="col">
+        <h2 id="popular">Popular services near you</h2>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <a href="">
+        <div class="col-md">
+          <img id="services" src="img/handyman.jpg">
+          <p id="title">Handyman</p>
+        </div> 
+      </a>
+      <a href="">
+        <div class="col-md">
+          <img id="services" src="img/house_cleaning.jpg">
+          <p id="title">House cleaning</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="col-md">
+          <img id="services" src="img/catering.jpg">
+          <p id="title">Event catering</p>
+        </div>
+      </a>
+      <a href="">
+        <div class="col-md">
+          <img id="services" src="img/carpet_cleaning.jpg">
+          <p id="title">Carpet cleaning</p>
+        </div>
+      </a>
+    </div>
+  </div>
+    <!-- Footer -->
+  <div class="container-fluid pt-5 pb-5">
+    <div class="row">
+      <div id="footer" class="col-9">
+        <h3>Get things done with Snupit</h3>
+        <p>From home improvements to planning a wedding, we connect you with the best local professionals</p>
+      </div>
+      <div class="col-3">
+        <button id="post_a_request" type="submit" class="btn btn-danger">Post a Request</button>
+      </div>
+    </div>
+  </div>
+ 
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/36ef2455c2.js" crossorigin="anonymous"></script>
+</body>
+</html>
